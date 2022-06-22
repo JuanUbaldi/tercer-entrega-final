@@ -1,0 +1,35 @@
+.Main3{ margin: 25px;
+    .exp{
+        border-radius: 10%;
+        border: orangered 2px solid;
+    }
+    .trab{
+        border-radius: 10%;
+        border: orangered 2px solid;
+    }
+
+     .h2{margin: 100px;
+        text-align: center;
+        color: $blanquito;
+     }
+    display: grid;
+    grid-template-columns:repeat(3 1fr) ;
+    grid-template-rows: repeat(3 1fr) ;
+    grid-template-areas: "h2 h2 h2"
+                      "h3Exp . pExp"
+                      "h3Tr . pTr"; }
+.h2{
+grid-area: h2;
+}
+.h3exp{
+    grid-area: h3Exp;
+}
+.pexp{
+    grid-area: pExp
+}
+.h3trabajos{
+    grid-area: h3Tr;
+}
+.pTrabajos{
+    grid-area: pTr;
+}

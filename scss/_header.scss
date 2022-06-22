@@ -1,0 +1,17 @@
+.cabecera{
+    background-image: url(../img/fondoNav.jpg );
+   h1{
+       text-align: center;
+       color: $blanquito;
+   }
+.navbar {
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  list-style-type: none;
+}
+a{
+   text-decoration: none;
+   color: $blanquito;
+}
+  }
