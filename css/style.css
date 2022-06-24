@@ -43,9 +43,7 @@
 .Main2 .formulario {
   margin: auto auto;
   padding: 100px 160px;
-  width: 50%;
-  border-radius: 5%;
-  border: solid 2px orangered; }
+  width: 50%; }
 
 .Main3 {
   margin: 25px;
@@ -54,10 +52,10 @@
   grid-template-rows: repeat(3 1fr);
   grid-template-areas: "h2 h2 h2" "h3Exp . pExp" "h3Tr . pTr"; }
   .Main3 .exp {
-    border-radius: 10%;
+    padding: 10px;
     border: orangered 2px solid; }
   .Main3 .trab {
-    border-radius: 10%;
+    padding: 10px;
     border: orangered 2px solid; }
   .Main3 .h2 {
     margin: 100px;
@@ -129,17 +127,14 @@
   margin: 100px;
   color: aliceblue; }
 
+.Main5 p {
+  text-align: center; }
+
 .Main5 h3 {
   color: aliceblue; }
 
-.Main5 .CarruselC {
-  margin-left: 50%; }
-
-.Main5 .CarruselB {
-  margin-left: 50%; }
-
-.Main5 .CarruselF {
-  margin-left: 50%; }
+.Main5 .slide img {
+  height: 600px; }
 
 .Main6 h3 {
   color: aliceblue;
@@ -153,41 +148,39 @@
     display: flex;
     flex-direction: column; }
   .Main2 .formulario {
-    width: 100%;
-    border-radius: 5%;
-    border: solid 2px orangered; }
+    margin: 50px;
+    padding: 40px;
+    width: 100%; }
   .Main3 {
     display: flex;
     flex-direction: column; }
   .Main4 h2 {
     text-align: center; }
   .Main4 img {
-    width: 100%; }
+    height: 300px; }
+  .Main4 ul {
+    margin: 0;
+    padding: 0; }
   .Main4 .fotos {
     display: flex;
     flex-direction: column; }
   .SingapurFlex {
     display: flex;
     flex-direction: column; }
-    .SingapurFlex img {
-      width: 100%; }
   .AlaskaFlex {
     display: flex;
     flex-direction: column; }
-    .AlaskaFlex img {
-      width: 100%; }
   .HKFlex {
     display: flex;
     flex-direction: column; }
-    .HKFlex img {
-      width: 100%; }
   .CRFlex {
     display: flex;
     flex-direction: column; }
-    .CRFlex img {
-      width: 100%; }
   .VienaFlex {
     display: flex;
     flex-direction: column; }
-    .VienaFlex img {
-      width: 100%; } }
+  img {
+    margin: 0;
+    width: 100%; }
+  .Main5 .slide img {
+    height: 300px; } }

@@ -13,9 +13,9 @@
 }
 .Main2{
 .formulario{
-    width: 100%;
-    border-radius: 5%;
-    border: solid 2px orangered;
+   margin: 50px;
+   padding: 40px;
+   width: 100%;
 }
 }
 
@@ -29,46 +29,52 @@ flex-direction: column;
 h2{
     text-align: center;
 }
-img{  width: 100%;
+ img{
+ 
+    height: 300px;
 }
+ul  {
+    margin: 0;
+    padding: 0;
+}
+
 .fotos{
 display: flex;
 flex-direction: column ;
+
 }
 
 }
 .SingapurFlex{ display: flex;
     flex-direction: column;
-    img{
-        width:100%
-    }
+
 }
 .AlaskaFlex{
     display: flex;
         flex-direction: column;
-        img{
-            width:100%
-        }
+
 }
 .HKFlex{
     display: flex;
         flex-direction: column;
-        img{
-            width:100%
-        }
+    
 }
 .CRFlex{ display: flex;
     flex-direction: column;
-    img{
-        width:100%
-    }
+
 }
 .VienaFlex{ display: flex;
-    flex-direction: column;
-    img{
+    flex-direction: column;}
+    img{ margin: 0;
         width:100%
+        
     }
 
+
+.Main5{
+    .slide img{
+        height: 300px;
+    }
 }
 
 
