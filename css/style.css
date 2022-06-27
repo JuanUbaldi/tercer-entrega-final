@@ -41,16 +41,28 @@
     padding: 10px; }
 
 .Main2 .formulario {
-  margin: auto auto;
-  padding: 100px 160px;
-  width: 50%; }
+  width: 25%;
+  border: solid orange 2px;
+  margin: auto;
+  padding: 20px; }
+  .Main2 .formulario input, .Main2 .formulario textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: solid 1px grey; }
+  .Main2 .formulario button {
+    background-color: #be7f0a;
+    color: white;
+    width: 40%; }
+  .Main2 .formulario button:hover {
+    background-color: #ecad39; }
 
 .Main3 {
   margin: 25px;
   display: grid;
   grid-template-columns: repeat(3 1fr);
-  grid-template-rows: repeat(3 1fr);
-  grid-template-areas: "h2 h2 h2" "h3Exp . pExp" "h3Tr . pTr"; }
+  grid-template-rows: repeat(4 1fr);
+  grid-template-areas: "h2 h2 h2" "h3Exp . pExp" "h3Tr . pTr" ". img . "; }
   .Main3 .exp {
     padding: 10px;
     border: orangered 2px solid; }
@@ -77,20 +89,39 @@
 .pTrabajos {
   grid-area: pTr; }
 
+.img {
+  grid-area: img; }
+
+.camara {
+  width: 500px;
+  height: 400px; }
+
 .Main4 h2 {
   text-align: center;
   margin: 100px;
   padding: 100px;
   color: aliceblue; }
 
-.Main4 .fotos {
-  list-style-type: none; }
+.Main4 .container {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  overflow: hidden; }
 
-.Main4 a {
+.Main4 img {
+  width: 100%;
+  height: 600px; }
+
+.Main4 p {
+  position: absolute;
+  font-size: 2rem;
+  color: #b5451d;
+  bottom: 0px; }
+
+.Main4 .container p a {
   text-decoration: none;
-  font-size: large;
-  font-weight: bolder;
-  color: aliceblue; }
+  color: orangered;
+  font-weight: bolder; }
 
 .Austria {
   margin-top: 100px; }
@@ -134,7 +165,7 @@
   color: aliceblue; }
 
 .Main5 .slide img {
-  height: 600px; }
+  height: 700px; }
 
 .Main6 h3 {
   color: aliceblue;
@@ -150,37 +181,38 @@
   .Main2 .formulario {
     margin: 50px;
     padding: 40px;
-    width: 100%; }
+    width: 80%; }
+    .Main2 .formulario input, .Main2 .formulario textarea {
+      width: 100%; }
+    .Main2 .formulario button {
+      background-color: #be7f0a;
+      color: white;
+      width: 40%; }
+    .Main2 .formulario button:hover {
+      background-color: #ecad39; }
   .Main3 {
     display: flex;
     flex-direction: column; }
+    .Main3 .camara {
+      width: 100%; }
   .Main4 h2 {
     text-align: center; }
+  .Main4 .container {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden; }
   .Main4 img {
+    width: 100%;
     height: 300px; }
-  .Main4 ul {
-    margin: 0;
-    padding: 0; }
-  .Main4 .fotos {
-    display: flex;
-    flex-direction: column; }
-  .SingapurFlex {
-    display: flex;
-    flex-direction: column; }
-  .AlaskaFlex {
-    display: flex;
-    flex-direction: column; }
-  .HKFlex {
-    display: flex;
-    flex-direction: column; }
-  .CRFlex {
-    display: flex;
-    flex-direction: column; }
-  .VienaFlex {
-    display: flex;
-    flex-direction: column; }
-  img {
-    margin: 0;
-    width: 100%; }
-  .Main5 .slide img {
+  .Main4 p {
+    position: absolute;
+    font-size: 2rem;
+    color: #f67d51;
+    bottom: 0px; }
+  .Main4 .container p a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bolder; }
+  .Main4 .Main5 .slide img {
     height: 300px; } }

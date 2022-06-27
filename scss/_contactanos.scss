@@ -1,8 +1,24 @@
 .Main2{
     .formulario{
-        margin: auto auto;
-        padding: 100px 160px;
-        width: 50%;
-    
-    }
+ 
+width: 25%;
+border: solid orange 2px;
+margin: auto;
+padding: 20px;
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: solid 1px grey;
+
 }
+button {
+    background-color: rgb(190, 127, 10);
+    color: white;
+    width: 40%;}
+button:hover{
+        background-color: rgb(236, 173, 57);
+  
+    }
+   }
+ }

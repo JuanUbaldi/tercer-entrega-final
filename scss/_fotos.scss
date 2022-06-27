@@ -6,14 +6,32 @@
          padding: 100px;
          color: $blanquito;
         }
-        .fotos{
-         list-style-type: none;
+        .container{
+            width: 800px;
+            height: 600px;
+            position: relative;
+            overflow: hidden;
+
+           
         }
-        a{
-         text-decoration: none;
-         font-size: large;
-         font-weight: bolder;
-         color:$blanquito;
+         img{
+            width: 100%;
+            height: 600px;
         }
+        p{
+           
+            position: absolute;
+            font-size: 2rem;
+            color: rgb(181, 69, 29);
+           bottom: 0px;
+          
         
-     }
+        }
+        .container p a{
+text-decoration: none;
+color: orangered;
+font-weight: bolder;
+        }
+       
+
+       }
